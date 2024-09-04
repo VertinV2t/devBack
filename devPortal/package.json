@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.4.1",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.19.1",
+    "typescript": "^5.5.4"
+  },
+  "name": "devportal",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts",
+    "generate": "npx prisma generate",
+    "migrate": "npx prisma migrate dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
